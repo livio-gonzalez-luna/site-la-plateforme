@@ -1,0 +1,224 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&family=Rubik+Distressed&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Distressed&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+}
+p{
+    font-size: 15px;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6
+button{
+    font-family: 'Poppins', sans-serif;
+}
+body{
+    font-family: 'Poppins', sans-serif;
+}
+header{
+    font-family: 'Rubik Distressed', cursive;
+    height: 20vh;
+    width: 100vw;
+}
+
+
+                                                                                           /* NAVIGATION */
+.navbar{
+    position: absolute;
+    padding: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    box-sizing: border-box;
+
+}
+.navbar a{
+    color: grey;
+}
+.navbar .logo{
+    font-size: 5em;
+}
+.navbar .navlink ul{
+    display: flex;
+}
+.navbar .navlink ul li{
+    margin: 0 30px;
+}
+                                                                                            /* CONTENANT 1 */
+.container1{
+    display: flex;
+    position: relative;
+    justify-content: center;
+    max-width: 500%;
+    width: 100%;
+    background: white;
+    background-color: lightgray;
+}
+.container1 .left_side{
+    display: grid;
+    align-content: center;
+    justify-content: left;
+    grid-template-columns: 650px;
+    position: relative;
+    padding: 65px;
+}      
+.container1 .left_side p span{
+    font-size: 1em;
+    font-weight: 550;
+    margin-left: 50px;
+    color: black;
+}
+.container1 .button{
+    margin-left: 25px;
+    margin-top: 80px;
+    font-size: 25px;
+    background: rgb(119, 113, 113);
+    width: 400px;
+    height: 100px;
+    padding: 20px;
+    text-align: center; 
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: 500;
+    color: #fff3f3;
+    border-radius: 10px;
+}
+.container1 .button:hover{
+    box-shadow: 0 0 20px 0px black; 
+    transition: all 200ms;
+} 
+.container1 .right_side{
+    position: relative;
+    width: auto;
+}
+.container1 .imagebox1{
+    position: relative;
+    width: 745px;
+    height: 745px;
+    overflow: hidden;
+}
+.container1 .imagebox1 img{
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+                                                                                            /* CONTENANT 2 */
+.container2{
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    padding-top: 100px;
+}
+.row{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 5%;
+}
+.row :hover{
+    box-shadow: 0 0 20px 0px black; 
+    transition: all 200ms;
+}
+
+.container2_column{
+    display: flex;
+    flex-direction: column;
+    flex-basis: 31%;
+    background: lightgrey;
+    border-radius: 10px;
+    margin-bottom: 5%;
+    padding: 20px 12px;
+
+}
+.container2 .button{
+    margin-left: 138px;
+    margin-top: 50px;
+    font-size: 13px;
+    background: rgb(119, 113, 113);
+    width: 100px;
+    height: 60px;
+    padding: 20px;
+    text-align: center;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: 500;
+    color: black;
+    border-radius: 50px;
+    color: #fff3f3;
+}
+.container2 h3{
+    text-align: center;
+    font-weight: 600;
+    margin: 10px 0;
+}
+                                                                                         /* CONTENANT 3 */
+.container3{
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    padding-top: 40px;
+}
+.column{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-top: 5%;
+}
+.column :hover{
+    box-shadow: 0 0 20px 0px black; 
+    transition: all 200ms;
+}
+.container3_line{
+    display: flex;
+    flex-direction: column;
+    flex-basis: 31%;
+    background: lightgrey;
+    border-radius: 10px;
+    margin-bottom: 5%;
+    padding: 20px 12px;
+}
+.container3 .button{
+    margin-left: 630px;
+    margin-top: 50px;
+    font-size: 13px;
+    background: rgb(119, 113, 113);
+    width: 100px;
+    height: 60px;
+    padding: 20px;
+    text-align: center;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: 500;
+    color: black;
+    border-radius: 50px;
+    color: #fff3f3;
+}           
+.container3 h3{
+    text-align: center;
+    font-weight: 600;
+    margin: 10px 0;
+} 
+
+
+
+                                                    /* FOOTER */
+.footer{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+.list1{
+    margin-left: 50px;
+}
+.list3{
+    margin-right: 50pxs;
+}
